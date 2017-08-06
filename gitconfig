@@ -1,0 +1,21 @@
+[user]
+    name =
+    email =
+[diff]
+    tool = gvimdiff
+[core]
+    editor = vim
+[color]
+    ui = true
+[alias]
+    s = status
+    f = fetch
+    b = branch
+    cm = !git add . && git commit -m
+    cod = !git f && git checkout origin/develop
+    com = !git f && git checkout origin/master
+    cob = checkout -b
+    rbd = !git f && git rebase origin/develop
+    rh = reset --hard
+    st = stash
+    stp = stash pop
